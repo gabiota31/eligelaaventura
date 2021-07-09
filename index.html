@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea la Aventura Propia</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    
+    <form action="libro.php" method="POST">
+        <label>Tu Nombre</label type>
+        <input type="text" name="protagonista">
+        <label>Elige un escenario 👇</label>
+        <select name="escenario">
+            <option value="">--Selecione--</option>
+            <option value="">El Bosque encantado</option>
+            <option value="">El Pantano Tenebroso</option>
+            <option value="">El Desierto Infinito</option>
+        </select>
+
+        <label>Ponle nombre a tu contrincante 👇</label>
+        <input type="text" name="enemigo">
+
+        <label>Elige un arma 👇</label>
+        <select name="arma">
+            <option value="">--Selecione--</option>
+            <option value="">espada</option>
+            <option value="">arco y flecha</option>
+            <option value="">dagas</option>
+        </select>
+
+        <label>Ponle nombre a quien te va a acompañar durante la aventura 👇</label>
+        <input type="text" name="compa_prota" id="" placeholder="ejemplo: 'El Gato con Botas'">
+
+        <input type="submit" value="Enviar">
+
+
+
+
+    </form>
+
+</body>
+</html>

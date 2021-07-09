@@ -1,0 +1,74 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+
+.pagina{
+    width: 700px; 
+    padding:30px;
+    margin: 30px auto;
+    font-size: large;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: rgb(122, 228, 230);
+    background-color: rgb(249, 253, 247); 
+}
+
+.boton{
+    width:10px;
+    color: white; 
+    background-color: black; 
+    padding:10px 20px; 
+    margin: 30px auto;
+}
+
+#pagina1 {
+    display: block;
+} 
+
+#pagina2{
+    display: none;
+}
+
+.objeto {
+    color: rgb(67, 211, 144);
+    font-style: italic;
+}
+
+form{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.pagina{
+    width: 500px; 
+    padding:30px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: rgb(122, 228, 230);
+    background-color: rgb(249, 253, 247); 
+    font-family:Arial;
+}*/
